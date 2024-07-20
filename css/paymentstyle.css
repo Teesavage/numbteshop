@@ -1,0 +1,39 @@
+/* Styling for form groups */
+
+
+.form-group {
+    margin-top: 20px;
+    margin-bottom: 2px;
+  }
+  
+  /* Styling for labels */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Styling for input fields */
+  input[type="email"],
+  input[type="tel"],
+  input[type="text"] {
+    width: 10%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Styling for submit button */
+  button[type="submit"] {
+    background-color: #fa7d08;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #fa7d08e0;
+  }
+  
